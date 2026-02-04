@@ -1,0 +1,21 @@
+[project]
+name = "youtube-summarizer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.4.1",
+    "dotenv>=0.9.9",
+    "faiss-cpu>=1.13.2",
+    "langchain>=1.2.8",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.8",
+    "langchain-groq>=1.1.2",
+    "langchain-text-splitters>=1.1.0",
+    "numpy>=2.4.2",
+    "pymupdf>=1.26.7",
+    "pypdf>=6.6.2",
+    "sentence-transformers>=5.2.2",
+    "youtube-transcript-api>=1.2.4",
+]
